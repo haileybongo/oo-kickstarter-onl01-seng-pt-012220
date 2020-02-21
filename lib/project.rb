@@ -3,7 +3,7 @@ class Project
   attr_reader :backers
   
   def initialize
-    @bakers = []
+    @backers = []
   end
   
   def add_backer(backer)
